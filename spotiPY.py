@@ -9,7 +9,7 @@ from json.decoder import JSONDecodeError
 # get username from terminal
 username = sys.argv[1]
 
-#e rase cache and prompt for user permission
+# erase cache and prompt for user permission
 try:
     token = util.prompt_for_user_token(username)
 except:
